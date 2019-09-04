@@ -74,7 +74,6 @@ class _PinViewState extends State<PinView> {
   @override
   void initState() {
     super.initState();
-    print('pinViewController >> inited');
     widget.pinViewController.init(this);
 
     _pin = List<String>.generate(widget.count, (int index) => "");
